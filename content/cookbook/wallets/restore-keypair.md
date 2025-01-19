@@ -55,7 +55,7 @@ const keypair = Keypair.fromSecretKey(keypairBytes);
 import { createKeyPairFromBytes, getBase58Codec } from "@solana/web3.js";
 
 const keypairBase58 =
-  "5MaiiCavjCmn9Hs1o3eznqDEhRwxo7pXiAYez7keQUviUkauRiTMD8DrESdrNjN8zd9mTmVhRvBJeg5vhyvgrAhG";
+  "E7Y5BFQHgx1WxZcuGLLo8q9cSdrkTCRLmSzkk8Uh8W4L";
 const keypairBytes = getBase58Codec().decode(keypairBase58);
 const keypair = await createKeyPairFromBytes(keypairBytes);
 ```
